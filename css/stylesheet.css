@@ -1,0 +1,190 @@
+/*------Web developed by Alkapop------*/
+/*-------made with love---------*/
+/*-------main-----*/
+
+section{
+    text-align: center;
+    padding: 50px 0;
+}
+.container{
+    margin: 0 auto;
+}
+
+/*--------header--------*/
+header{
+    padding: 80px 0;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: url('../images/slider4.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin: 0px 12px 0 12px;
+    color: white;
+    font-size: 48px;
+    font-family: Sans-Serif;
+    text-shadow: 5px 4px 4px blue;
+}
+h2{
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+}
+header h2::after{
+    content: "</>";
+    color: black;
+    font-size: 48px;
+}
+.btn{
+    padding: 16px 5px;
+    background: tomato;
+    border-radius: 5px;
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: purple;
+    transition: ease-in 10s;
+}
+/*---------Features----------*/
+.features{
+    background: url(../images/advice_and_caution.jpg) no-repeat center center;
+    background-size: cover;
+}
+.features h2{
+    font-size: 48px;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 3px 3px 3px blue;
+    color: #fff;
+}
+.feature{
+    width: 30%;
+    display: inline-block;
+    font-size: 19px;
+}
+.feature img{
+    width: 70px;
+    border-radius: 50%;
+}
+.feature p{
+    color: #c3c3c3;
+}
+/*---------quote-----------*/
+.quote{
+    background: url(../images/services.jpg) center center no-repeat;
+    background-size: cover;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+blockquote p{
+    margin: 0 0 5px 0;
+    font-size: 25px;
+    font-style: bold;
+    text-shadow: 5px 5px 5px blue;
+}
+blockquote cite{
+    font-size: 16px;
+    font-style: italic;
+    color: aqua;
+}
+blockquote cite:before{
+    content: '_';
+    margin-right: 5px;
+}
+/*---------footer-------*/
+footer{
+    padding: 32px 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background: url(../images/slider1.jpg);
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+}
+footer li a{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+footer li a:hover{
+    color: white;
+    cursor:pointer;
+    transition: ease-in 10s;
+}
+
+/*---------for mobile----------*/
+@media screen and(max-width: 480px){
+    /*----------header----------*/
+    .btn{
+        display: block;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 32px;
+        margin: 0 0 8px 0;
+    }
+    h2{
+        font-size: 18px;
+    }
+    section{
+        padding: 25px 0 15px 0;
+    }
+    /*---------Features----------*/
+    .feature{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 10px 0;
+        font-size: 15px;
+    }
+    .feature img{
+        width: 15px;
+        min-width: 60px;
+        margin-right: 20px;
+    }
+    /*---------quote-----------*/
+    .quote{
+         padding: 30px 0;
+    }
+    blockquote p{
+        font-size: 18px;
+    }
+    blockquote cite{
+        font-style: 14px;
+    }
+    /*---------footer-------*/
+    footer{
+        padding: 30px 0 10px 0;
+    }
+    footer li{
+        display: block;
+        margin: 5px 0;
+    }
+    
+    
+}
+
+/*----------End of my first project made with love---------*/
+/*------Web developed by Alkapop------*/
+/*love and respect until next see*/
+    
